@@ -7,7 +7,7 @@ module.exports = {
       serviceWorker: true,
       updatePopup: true
     },
-    ,
+
     ['container', {
       type: 'vue',
       before: '<pre class="vue-container"><code>',
@@ -15,7 +15,7 @@ module.exports = {
     }]
   ],
   port: 3030,
-  base: '/IO-26-DB-group-2/',
+  base: '/IO-26-DB-group-2',
   theme: 'cool',
   // dest: 'dist',
   head: [
@@ -95,8 +95,8 @@ module.exports = {
     // editLinkText: 'Ви можете покращити цю сторінку'
 
   },
-  title: 'Назва проєкту',
-  description: 'Курсова робота з дисципліни "Бази даних"',
+  title: 'Система аналізу медіа-контенту',
+  description: 'Лабораторна робота з дисципліни "Бази даних"',
   configureWebpack: {
     resolve: {
       alias: {
