@@ -8,7 +8,7 @@
   "license": "ECL 2.0",
   "scripts": {
     "test": "jest",
-    "docs:api": "jsdoc2md scr/**/*.js > docs/api/README.md",
+    "docs:api": "jsdoc2md  src/**/*.js  > docs/api/README.md",
     "docs:dev": "npx vuepress dev docs",
     "docs:build": "npx vuepress build docs",
     "publish": "publish.sh"
